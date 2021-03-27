@@ -1,4 +1,6 @@
 const config = {
+    MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_test_51IThWNG8m9jfDZ0s0ZqZd98A01YAU3UYLnUxzjdMi8iwA4fDeVv072KNIWhHNyfdLqICF9X7FKwoaRRYIWZ2l1Jf00ebunDQ4F",
     s3: {
       REGION: "us-west-2",
       BUCKET: "yu-notes-app-upload",
